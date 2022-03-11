@@ -30,9 +30,12 @@ def get_arg():
     parse = argparse.ArgumentParser()
     reqargs = parse.add_argument_group('Required')
     reqwdef = parse.add_argument_group('Required with default')
+    optarg = parse.add_argument_group('optional arguments')
     reqargs.add_argument('-i', '--inputmatrix', type=str, required=True, help='Provide the full path of the expression matrix file (FPKM-UQ) in the required format.')
     reqargs.add_argument('-o', '--outputdir', type=str, required=True, help='Provide the full path to the output directory.')
     reqwdef.add_argument('-t', '--cancertypes', type=str, default = '17', help='provide the # of cancer types 17 or 32, you want to use to classify your data')
+    optarg.add_argument('-g', '--numgenes', type=str, default = 'PC', help='you can choose either PC (protein coding) or ALL(for all genes)')
+    
     allarg = parse.parse_args()
     return allarg
 
