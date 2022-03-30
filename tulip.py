@@ -79,7 +79,7 @@ def check_format(df):
 
     Args: df (dataframe)
     """
-    assert df[df.columns[0]][0].lower().startswith("ensg") == True, "File should contain Ensembl IDs in the first column."
+    assert df[df.columns[0]][0].startswith("ENSG") == True, "File should contain Ensembl IDs in the first column."
     assert (df[df.columns[2:]].dtypes == "float64").all() == True, "Columns of expression values contain non-numeric data."
 
 def check_genes(df, geneList):
