@@ -1,2 +1,2 @@
 # TULIP - TUmor CLassIfication Predictor
-![tulip](images/tulip.svg)
+<img src = "images/tulip.svg" width = "10" height = "10">
