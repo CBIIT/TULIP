@@ -28,12 +28,25 @@ To download the model weights needed for running TULIP:
 ## Running TULIP
 
 ```bash
-python tulip.py -i example_data/all_genes_htseq_fpkm_uq.csv
+python tulip.py -i -i <path/to/file> [options]
 ```
+
+Example:
 
 ```bash
 python tulip.py -i example_data/all_genes_htseq_fpkm_uq.csv -t 17 -g all -o example_results/
 ```
+
+Parameters:
+
+Required
+ * -i, --input = the full path of the gene expression matrix file (FPKM-UQ) in the required format
+
+Optional
+ * -t, --types = the number of tumor types, 17 or 32 (default), to use for classification
+ * -g, --genes = indicate 'all' to use all 60K genes or 'pc' (default) for protein coding genes only
+ * -o, --output_dir = the full path to the output directory
+ * -m, --min_score = the minimum probability score (0.0 to 1.0) for keeping the predicted primary tumor type
 
 ## Acknowledgments
 
