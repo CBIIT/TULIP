@@ -27,6 +27,14 @@ To download the model weights needed for running TULIP:
 
 ## Running TULIP
 
+```bash
+python tulip.py -i example_data/all_genes_htseq_fpkm_uq.csv
+```
+
+```bash
+python tulip.py -i example_data/all_genes_htseq_fpkm_uq.csv -t 17 -g all -o example_results/
+```
+
 ## Acknowledgments
 
 TULIP is based on [NCI-DOE-Collab-Pilot1-Tumor-Classifier](https://github.com/CBIIT/NCI-DOE-Collab-Pilot1-Tumor-Classifier).
