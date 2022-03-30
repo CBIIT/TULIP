@@ -58,9 +58,11 @@ Required
 
 Optional
  * -t, --types = the number of tumor types, 17 or 32 (default), to use for classification
- * -g, --genes = indicate 'all' to use all 60K genes or 'pc' (default) for protein coding genes only
+ * -g, --genes = indicate 'all' to use all 60K genes or 'pc' (default) for the 19K protein coding genes only
  * -o, --output_dir = the full path to the output directory
  * -m, --min_score = the minimum probability score (0.0 to 1.0) for keeping the predicted primary tumor type
+
+If no options are selected, 32 tumor types and 19K protein coding genes are selected by default.
 
 ## Acknowledgments
 
