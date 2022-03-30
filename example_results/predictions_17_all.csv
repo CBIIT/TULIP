@@ -1,0 +1,4 @@
+samples,predicted_class,probability
+CPT0019990006,Kidney renal clear cell carcinoma,0.9880854
+CPT0017440009,Kidney renal clear cell carcinoma,0.98144525
+CPT0077290006,Kidney renal clear cell carcinoma,0.9830578
