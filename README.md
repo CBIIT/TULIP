@@ -4,7 +4,7 @@
 
 ## Software Setup
 
-To set up the Python environment needed to train and run this model:
+To set up the Python environment for TULIP:
 1. Install [conda](https://docs.conda.io/en/latest/) package manager. 
 2. Clone this repository. 
 3. Create the environment as shown below.
@@ -14,12 +14,16 @@ To set up the Python environment needed to train and run this model:
    conda activate tulip
 ```
 
-## Data Setup
+## Downloading Model Weights
 
-To download the model weights needed to run TULIP:
+To download the model weights needed for running TULIP:
 1. Create an account on the Model and Data Clearinghouse [MoDaC](https://modac.cancer.gov). 
 2. Follow the instructions in the [Running TULIP](https://github.com/CBIIT/TULIP/blob/main/README.md#running-tulip) section below.
 3. When prompted, enter your MoDaC credentials.
+
+## Data Setup
+
+
 
 ## Running TULIP
 
