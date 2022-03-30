@@ -1,6 +1,12 @@
 # TULIP - TUmor CLassIfication Predictor <img src = "images/tulip.svg" width = "50" height = "50">
 
+Tool to classify RNA-seq samples into different tumor types.
+
 ## Description
+
+TULIP (TUmor CLassIfication Predictor) is a 1D convolutional neural network for classifying RNA-Seq data with [60K genes](https://github.com/CBIIT/TULIP/blob/main/gene_lists/all_genes.txt) or [19K protein coding genes](https://github.com/CBIIT/TULIP/blob/main/gene_lists/protein_coding_genes.txt) into [17](https://github.com/CBIIT/TULIP/blob/main/labels/17_tumors.csv) or [32](https://github.com/CBIIT/TULIP/blob/main/labels/17_tumors.csv) tumor types. 
+
+The models used in TULIP were trained and validated on over 9,000 TCGA RNA-seq files from the Genomic Data Commons (GDC) in February 2022. To use TULIP, the user must provide a file of RNA-seq data expressed as FPKM-UQ for one or more samples. TULIP then converts FPKM-UQ values to TPM and performs other preprocessing steps before applying the selected model. Two files are generated - one file with only the predicted primary tumor types and their probability scores and a second file with the probabilitity scores for each tumor type for reference.
 
 ## Software Setup
 
