@@ -33,7 +33,7 @@ TULIP accepts CSV, XLSX, and TSV file formats.
 
 The data must be arranged with the Ensembl IDs in the first column and the expression values starting from the third column.
 
-<img src = "images/example_data_setup.png" width = "50" height = "50">
+<img src = "images/example_data_setup.png" width = "100" height = "100">
 
 Example files with 60K genes and 19K protein coding genes are provided in [example_data](https://github.com/CBIIT/TULIP/tree/main/example_data). The samples included in these files were obtained from [GDC](https://portal.gdc.cancer.gov/). 
 
