@@ -92,12 +92,12 @@ def check_genes(df, geneList):
 
     Returns: df (dataframe)
     """
-    # check that genes are the same
+    # check that gene ids are the same
     if df[df.columns[0]].tolist() == geneList:
         return df
-    # sort genes and check that genes are the same
+    # sort gene ids and check that gene ids are the same
     elif sorted(df[df.columns[0]].tolist()) == geneList:
-        # sort dataframe by genes
+        # sort dataframe by gene ids
         return df.sort_values(by=df[df.columns[0]].name)
     else:
         # list of missing genes
@@ -113,7 +113,7 @@ def check_genes(df, geneList):
             df.loc[len(df)] = row_list
         # drop any rows with duplicate gene ids
         df = df.drop_duplicates(subset=df[df.columns[0]].name, keep="first")
-        # sort dataframe by genes
+        # sort dataframe by gene ids
         return df.sort_values(by=df[df.columns[0]].name)
 
 def prep_data(df):
