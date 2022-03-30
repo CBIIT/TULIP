@@ -6,7 +6,6 @@ This tool predicts the primary tumor type (17 or 32 types) based on RNA-seq data
 Authors: Satish RG, Sara Jones 
 """
 from __future__ import print_function
-from contextlib import nullcontext
 import os, warnings 
 warnings.simplefilter(action="ignore", category=FutureWarning)
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3" 
