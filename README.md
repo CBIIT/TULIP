@@ -18,7 +18,7 @@ To set up the Python environment needed to train and run this model:
 
 To download the model weights needed to run TULIP:
 1. Create an account on the Model and Data Clearinghouse [MoDaC](https://modac.cancer.gov). 
-2. Follow the instructions in the [Running TULIP] section below.
+2. Follow the instructions in the [Running TULIP](https://github.com/CBIIT/TULIP/blob/main/README.md#running-tulip) section below.
 3. When prompted, enter your MoDaC credentials.
 
 ## Running TULIP
