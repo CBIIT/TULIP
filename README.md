@@ -35,7 +35,7 @@ The data must be arranged with the Ensembl IDs in the first column and the expre
 
 <img src = "images/example_data_setup.png">
 
-Example files with 60K genes and 19K protein coding genes are provided in [example_data](https://github.com/CBIIT/TULIP/tree/main/example_data). The samples included in these files were obtained from [GDC](https://portal.gdc.cancer.gov/). 
+Example files with 60K genes and 19K protein coding genes are provided in [example_data](https://github.com/CBIIT/TULIP/tree/main/example_data). The CPTAC samples included in these files represent kidney cancer and were obtained from [GDC](https://portal.gdc.cancer.gov/). 
 
 If there are any duplicate Ensembl IDs, TULIP will remove them. Additionally, if there are any missing Ensembl IDs, TULIP will add them and set the expression values to 0 for each sample. 
 
