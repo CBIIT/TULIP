@@ -24,14 +24,22 @@ git clone https://github.com/CBIIT/TULIP.git
    conda env create -f environment.yml -n tulip
    conda activate tulip
 ```
+## Folder Structure
 ```
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
+.
+├── example_data/                 # folder containing example input files
+├── example_results/              # folder containing example output files
+├── gene_lists/                   # folder containing lists for 19K and 60K genes
+├── labels/                       # folder containing lists for 17 and 32 tumor types
+├── models/                       # folder containing model weights
+│   ├── cnn_17_pc_weights.h5      # model weights for 17 tumor types and 19K protein coding genes
+│   ├── cnn_17_weights.h5         # model weights for 17 tumor types and 60K genes
+│   ├── cnn_32_pc_weights.h5      # model weights for 32 tumor types and 19K protein coding genes
+│   ├── cnn_32_weights.h5         # model weights for 32 tumor types and 60K genes
+├── environment.yml               # Python and libraries to run TULIP
+├── tulip.py                      # Python script of TULIP
+└── ...
+
 ```
 ## Downloading Model Weights
 
