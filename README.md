@@ -13,6 +13,11 @@ The models used in TULIP were trained and validated on over 9,000 TCGA RNA-seq f
 To set up the Python environment for TULIP:
 1. Install [conda](https://docs.conda.io/en/latest/) package manager. 
 2. Clone this repository. 
+
+```bash
+git clone https://github.com/CBIIT/TULIP.git
+```
+
 3. Create the environment as shown below.
 
 ```bash
