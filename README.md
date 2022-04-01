@@ -24,7 +24,15 @@ git clone https://github.com/CBIIT/TULIP.git
    conda env create -f environment.yml -n tulip
    conda activate tulip
 ```
-
+```
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+```
 ## Downloading Model Weights
 
 To download the model weights needed for running TULIP:
