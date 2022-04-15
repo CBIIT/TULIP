@@ -37,6 +37,8 @@ git clone https://github.com/CBIIT/TULIP.git
 │   ├── cnn_32_pc_weights.h5      # model weights for 32 tumor types and 19K protein coding genes
 │   ├── cnn_32_weights.h5         # model weights for 32 tumor types and 60K genes
 ├── environment.yml               # Python and libraries to run TULIP
+├── modac_file_download.py
+├── utils
 ├── tulip.py                      # Python script of TULIP
 └── ...
 
