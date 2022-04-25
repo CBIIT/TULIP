@@ -32,7 +32,7 @@ To set up the Python environment for TULIP:
    conda activate tulip
    ```
 
-These commands generate an initial folder structure with an empty *models* folder. 
+These commands generate an initial folder structure without a *models* folder. 
 
 ## Downloading Model Weights
 
